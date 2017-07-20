@@ -1,0 +1,40 @@
+// Font family
+$font-stack :sans-serif;
+$font-awesome:'FontAwesome';
+$font-path:"../fonts" !default;
+
+// Colors
+$white : #ffffff;
+$black : #000000;
+
+// Form styles
+$fm-border-thickness:1px;
+$fm-label-bg:#ececec;
+$fm-input-bg:$white;
+$fm-font-family:$font-stack;
+ 
+// Form focus color
+$fm-focus-outline:#cb001d;
+
+//Buttons
+
+// Font size
+$font-vs:10px;
+$font-sm:12px;
+$font-md:14px;
+$font-md2:16px;
+$font-lg:18px;
+$font-x:22px;
+$font-xl:34px;
+$font-xxl:44px;
+$font-xxll:60px;
+
+// Width
+$grid-width:960px;
+$fluid-width:100%;
+$screen-xxs-min:568px;
+$screen-xs-min:640px;
+$screen-xs-max:768px;
+$screen-md-min:940px;
+$screen-md-max:1024px;
+$screen-lg-min:1200px;

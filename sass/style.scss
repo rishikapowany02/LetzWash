@@ -1,0 +1,34 @@
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+ 
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+
+// Core CSS
+@import "bootstrap/scaffolding"; 
+@import "bootstrap/type";
+@import "bootstrap/code";  
+@import "bootstrap/grid";
+
+// Compass css3 components
+@import "compass/css3";
+
+// Font awesome css  
+@import "scss/font-awesome/font-awesome";
+
+@import "scss/slick/slick";
+@import "scss/slick/slick-theme";
+
+// Common css
+@import "scss/helpers/variables";
+@import "scss/helpers/common";
+@import "scss/helpers/mixins";
+@import "scss/helpers/fonts";
+@import "scss/helpers/typography";
+@import "scss/substyle/substyle";
+
+
+//Media
+@import "scss/media/media";

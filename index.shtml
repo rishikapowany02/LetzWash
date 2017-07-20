@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Letz Wash</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!--header section start-->
+  <header>
+    <div class="container">
+  <a href="index.shtml" class="logo"><img src="images/logo.png" /></a>
+  <div class="menu-item fR">
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="index.shtml#about" >About Us</a></li>
+      <li><a href="index.shtml#services">Services</a></li>
+      <li><a href="index.shtml#packages">Packages</a></li>
+      <li><a href="index.shtml#faq" class="link">FAQ</a></li>
+      <li><a href="index.shtml" class="link">Contact us</a></li>
+      <div id="abc">
+        <div id="popupContact">
+
+ <div class="form-wrapper">
+  <img id="close"  onclick ="div_hide()" alt="close"  src="images/close.png" />
+          <h4>Express booking</h4>
+          <div class="contact-form">
+            <input type="text" class="textBox" placeholder="Name">
+            <input type="tel" class="textBox" placeholder="Mobile no">
+            <input type="text" class="textBox" placeholder="location">
+            <textarea class="textArea" placeholder="Address"></textarea>
+            <button class="btn more-button">Book now</button>
+          </div>
+        </div>
+
+         
+      </div>
+      </div>
+      <button class="btn more-button">Book a wash</button>
+      <button class="btn more-button" id="popup" onclick="div_show()">Log in/ sign up</button>
+
+      
+    </ul>
+  </div>
+</div>
+</header>
+  <!--header section end-->
+
+  <!--banner section start-->
+
+<div style="background-image:url('images/home-banner.png');" class="homebanner"> 
+      <div class="banner_form">
+        <div class="form-wrapper">
+          <h4>Express booking</h4>
+          <div class="contact-form">
+            <input type="text" class="textBox" placeholder="Name">
+            <input type="tel" class="textBox" placeholder="Mobile no">
+            <input type="text" class="textBox" placeholder="location">
+            <textarea class="textArea" placeholder="Address"></textarea>
+            <button class="btn more-button">Book now</button>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+  <!--banner section end-->
+
+  <!--about us section start-->
+  <section class="about-us text-center" id="about">
+    <div class="container">
+      <h2>About us</h2>
+      <div class="col-xs-6">
+        <img src="images/about-us.png" alt="about us image" />
+      </div>
+      <div class="col-xs-6 fR">
+        <p class="bottom-spacing">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown p</p>
+      </div>
+    </div>
+  </section>
+  <!--about us section end-->
+
+  <!--services section start-->
+
+  <section class="services text-center" id="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="col-xs-4">
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="images/01.png" alt="car image"/>
+          </div>
+          <div class="services-info">
+            <h4>Steam waterless wash</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="images/02.png" alt="car image"/>
+          </div>
+          <div class="services-info">
+            <h4>Wax polishing</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="images/03.png" alt="car image"/>
+          </div>
+          <div class="services-info">
+            <h4>Interior vacumming</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+          </div>
+        </div>
+      </div>
+      <div class="row services-spacing"></div>
+      <div class="col-xs-4">
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="images/04.png" alt="car image"/>
+          </div>
+          <div class="services-info">
+            <h4>A/C vent cleaning</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="images/05.png" alt="car image"/>
+          </div>
+          <div class="services-info">
+            <h4>Mobile wash</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="images/06.png" alt="car image"/>
+          </div>
+          <div class="services-info">
+            <h4>Car detailing<br> (coming soon)</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--services section end-->
+
+  <!--what we do section start-->
+  <section class="what-we-do">
+    <div class="container">
+      <h2 style="text-align:center;">What we do</h2>
+      <div class="row">
+        <div class="col-xs-4 left-col">
+          <div class="first-item">
+            <img src="images/compatibility.png" alt="image" />
+            <img src="images/telephone.png" alt="image" class="telephone" />
+            <img src="images/dir1.png" class="direction" alt="image" />
+            <h5>Book a wash</h5>
+            <p>Book a wash through app/website or through phone call.</p>
+          </div>
+          <div class="second-item">
+            <img src="images/car.png" alt="image" />
+            <img src="images/dir4.png" class="direction" alt="image" />
+            <h5>Wash car</h5>
+            <p>Wash a car beyond your expectation</p>
+          </div>
+        </div>
+        <div class="col-xs-4 middle-col">
+          <div class="first-item">
+            <img src="images/truck.png" alt="image" />
+            <img src="images/dir3.png" class="direction" alt="image" />
+            <h5>Reach destination</h5>
+            <p>Our experts will reach your destination on time</p>
+          </div>
+          <div class="second-item">
+            <img src="images/hand.png" alt="image" />
+            <img src="images/dir5.png" class="direction" alt="image" />
+            <h5>Feedback</h5>
+            <p>Rate our services in our website and app</p>
+          </div>
+        </div>
+        <div class="col-xs-4 right-col">
+          <div class="first-item">
+            <img src="images/lady.png" alt="image" />
+            <img src="images/dir2.png" class="direction" alt="image" />
+            <h5>Receive request</h5>
+            <p>Technical team receive your request</p>
+          </div>
+          <div class="second-item">
+            <img src="images/man.png" alt="image" />
+            <!-- <img src="images/dir6.png" class="direction" alt="image" /> -->
+            <h5>Assign team</h5>
+            <p>We will assign a team of experts and people</p>
+          </div>
+          <div class="third-item">
+            <img src="images/card.png" alt="image" />
+            <img src="images/dir6.png" class="direction" alt="image" />
+            <h5>Payment</h5>
+            <p>pay via online or direct to us</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--what we do section end-->
+
+  <!--packages section start-->
+  <section class="packages text-center">
+    <div class="container">
+    
+ <h2>Packages</h2>
+
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">once</label>
+
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">monthly</label>
+
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">yearly</label>
+
+  <section id="content1">
+     <div class="row">
+                <div class="col-xs-3">
+                    <img src="images/once.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/monthly.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/yearly.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+              </div>
+  </section>
+
+  <section id="content2">
+     <div class="row">
+                <div class="col-xs-3">
+                    <img src="images/once.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/monthly.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/yearly.png" alt="images" />
+                    <h5>gold</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+              </div>
+  </section>
+
+  <section id="content3">
+     <div class="row">
+                <div class="col-xs-3">
+                    <img src="images/once.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/monthly.png" alt="images" />
+                    <h5>Silver</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/yearly.png" alt="images" />
+                    <h5>diamond</h5>
+                    <span class="price fR">from <b>499</b></span>
+                    <ul>
+                      <li>Exterior body cleaning</li>
+                      <li>waterless</li>
+                      <li>glass and tyre treatment</li>
+                      <li>cabin sanitising</li>
+                      <li>cabin deonising</li>
+                      <li>interior vaccum</li>
+                      <li>uphoistery vacuum and cleanign</li>
+                      <li>trubk vaccum and cleaning</li>
+                      <a href="#" class="btn more-button">Get started</a>
+                    </ul>
+                </div>
+              </div>
+  </section>
+
+
+
+    </div>  
+  </section>
+  <!--packages section end-->
+
+  <!--testimonial section start-->
+  <section class="testimonial text-center">
+    <div class="container">
+      <h2>Testimonial</h2>
+      <img src="images/quote.png" alt="images">
+      <div class="slider-banner">
+        <div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+            <h5>Suresh agarwal</h5>
+        </div>
+        <div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+            <h5>Name change</h5>
+        </div>
+        <div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+            <h5>Suresh agarwal</h5>
+        </div>
+        <div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+            <h5>Name change</h5>
+        </div>
+        <div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+            <h5>Suresh agarwal</h5>
+        </div>
+      </div>
+  </section>
+  <!--testimonial section end-->
+
+  <!--download section start-->
+  <section class="download text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 mobile-screens">
+          <img src="images/mobile.png" class="android-mobile" alt="mobile screen" />
+          <img src="images/mobile.png" class="ios-mobile" alt="mobile sceeen" />
+        </div>
+        <div class="col-xs-6 fR">
+          <h3>Download our android and iOS app</h3>
+          <img src="images/play-store.png" alt="google play" />
+          <img src="images/app-store.jpg" alt="app store" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--download section end-->
+
+  <!--faq section start-->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 style="text-align:center;">FAQ</h2>
+      <div class="row">
+        <div class="service-text">
+
+          
+
+              <div class="col-xs-6 no-padding">
+                <div class="services-details">
+                  <div class="text media-body">
+                    <a href="#">Question number one?</a>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6 no-padding">
+                  <div class="services-details">
+                    <div class="text media-body">
+                      <a href="#">Question number one?</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="col-xs-6 no-padding">
+                    <div class="services-details">
+                      <div class="text media-body">
+                        <a href="#">Question number one?</a>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                        </div>
+
+
+                      </div>
+                    </div>
+                    <div class="col-xs-6 no-padding">
+                      <div class="services-details">
+                        <div class="text media-body">
+                          <a href="#">Question number one?</a> 
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <div class="col-xs-6 no-padding">
+                        <div class="services-details">
+                          <div class="text media-body">
+                            <a href="#">Question number one?</a>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                            </div>
+
+
+                          </div>
+                        </div>
+                        <div class="col-xs-6 no-padding">
+                        <div class="services-details">
+                          <div class="text media-body">
+                            <a href="#">Question number one?</a>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                            </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row text-center">
+                    <a href="#" class="btn more-button"> load more </a>
+                  </div>
+                    <div>
+                    </section>
+                    <!--faq section end-->
+
+                    <!--counter plugin section start-->
+                    <section class="rating-count text-center">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-xs-4 right-border">
+                            <h2 class="counter">160</h2>
+                            <h3>No. of car washed</h3>
+                          </div>
+                          <div class="col-xs-4 right-border">
+                              <h2 class="counter">120</h2>
+                            <h3>No. of repeating Customers</h3>
+                          </div>
+                          <div class="col-xs-4">
+                              <h2 class="counter">600</h2>
+                            <h3>litres of water saved</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <!--counter plugin section end-->
+
+                    <!--footer section start-->
+                    <footer>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-xs-3">
+                            <img src="images/logo.png" alt="logo" />
+                            <ul>
+                                <li><a href="#">help@letzwash.in</a></li>
+                                <li>+91 9882345981</li>
+                                <li>+91 9882345981</li>
+                            </ul>
+                          </div>
+                          <div class="col-xs-2">
+                            <h4>Lets wash</h4>
+                            <ul>
+                              <li>About us</li>
+                              <li>What we do</li>
+                              <li>Testimonial</li>
+                            </ul>
+                          </div>
+                          <div class="col-xs-2">
+                              <h4>Lets wash</h4>
+                            <ul>
+                              <li>FAQ</li>
+                              <li>packages</li>
+                              <li>contact</li>
+                            </ul>
+                          </div>
+                          <div class="col-xs-2">
+                            <h4>company</h4>
+                            <ul>
+                              <li>blog</li>
+                              <li>team</li>
+                              <li>career</li>
+                            </ul>
+                          </div>
+                          <div class="col-xs-2">
+                            <h4>Social media</h4>
+                            <ul>
+                              <li>facebook</li>
+                              <li>twitter</li>
+                              <li>instagram</li>
+                            </ul>
+                          </div>
+
+                        </div>
+                        <p class="copyright">&copy;2017 LetzWash. All rights reserved.</p>
+                      </div>
+                    </footer>
+                    <!--footer section end-->
+
+
+
+
+                    <script src="js/build/global.min.js"></script>
+                  </body>
+                  </html>
